@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		804A0D611CE9778A00A50CEC /* FrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 804A0D601CE9778A00A50CEC /* FrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804A0D6A1CE977AA00A50CEC /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 804A0D681CE977AA00A50CEC /* TestClass.h */; };
+		804A0D6B1CE977AA00A50CEC /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A0D691CE977AA00A50CEC /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		804A0D5D1CE9778A00A50CEC /* FrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		804A0D601CE9778A00A50CEC /* FrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTest.h; sourceTree = "<group>"; };
 		804A0D621CE9778A00A50CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804A0D681CE977AA00A50CEC /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		804A0D691CE977AA00A50CEC /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				804A0D601CE9778A00A50CEC /* FrameworkTest.h */,
 				804A0D621CE9778A00A50CEC /* Info.plist */,
+				804A0D681CE977AA00A50CEC /* TestClass.h */,
+				804A0D691CE977AA00A50CEC /* TestClass.m */,
 			);
 			path = FrameworkTest;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				804A0D611CE9778A00A50CEC /* FrameworkTest.h in Headers */,
+				804A0D6A1CE977AA00A50CEC /* TestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804A0D6B1CE977AA00A50CEC /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +244,7 @@
 				INFOPLIST_FILE = FrameworkTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rbc.FrameworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = chrisbenoit.FrameworkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -252,7 +260,7 @@
 				INFOPLIST_FILE = FrameworkTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rbc.FrameworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = chrisbenoit.FrameworkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -277,6 +285,7 @@
 				804A0D671CE9778A00A50CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
